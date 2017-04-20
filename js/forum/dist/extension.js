@@ -134,15 +134,6 @@ System.register('Reflar/UserManagement/components/AgeGenderModal', ['flarum/comp
                       'option',
                       { value: app.translator.trans('reflar-usermanagement.forum.signup.female') },
                       app.translator.trans('reflar-usermanagement.forum.signup.female')
-                    ),
-                    this.gender() == app.translator.trans('reflar-usermanagement.forum.signup.other') ? m(
-                      'option',
-                      { value: app.translator.trans('reflar-usermanagement.forum.signup.other'), selected: true },
-                      app.translator.trans('reflar-usermanagement.forum.signup.other')
-                    ) : m(
-                      'option',
-                      { value: app.translator.trans('reflar-usermanagement.forum.signup.other') },
-                      app.translator.trans('reflar-usermanagement.forum.signup.other')
                     )
                   )
                 ),
