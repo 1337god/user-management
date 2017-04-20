@@ -51,12 +51,7 @@ export default class AgeGenderModal extends Modal {
               ) : (
                 <option value={app.translator.trans('reflar-usermanagement.forum.signup.female')}>{app.translator.trans('reflar-usermanagement.forum.signup.female')}</option>
               )}
-
-              {this.gender() == app.translator.trans('reflar-usermanagement.forum.signup.other') ? (
-                <option value={app.translator.trans('reflar-usermanagement.forum.signup.other')} selected>{app.translator.trans('reflar-usermanagement.forum.signup.other')}</option>
-              ) : (
-                <option value={app.translator.trans('reflar-usermanagement.forum.signup.other')}>{app.translator.trans('reflar-usermanagement.forum.signup.other')}</option>
-              )}
+              
           </select>
           </div>
           <div className="Form-group">
